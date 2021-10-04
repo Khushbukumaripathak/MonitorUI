@@ -1,0 +1,10 @@
+@startuml
+GetStatisticalData -> Ad_Database: GetObjectListAWS
+@enduml
+GetStatisticalData -> Ad_Database: ReadTemperatureData
+GetStatisticalData -> Ad_Database: GetObjectListAWS
+GetStatisticalData -> Ad_Database: ReadRSSIData
+GetStatisticalData -> Ad_Database: GetObjectListAWS
+@enduml
+@enduml
+@enduml

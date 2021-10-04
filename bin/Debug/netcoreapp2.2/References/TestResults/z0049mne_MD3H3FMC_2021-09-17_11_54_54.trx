@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="5c70c57b-4b32-4b72-a3e0-889426db9ab2" name="z0049mne@MD3H3FMC 2021-09-17 11:54:54" runUser="AD001\z0049mne" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2021-09-17T11:54:54.1509074+05:30" queuing="2021-09-17T11:54:54.1509074+05:30" start="2021-09-17T11:54:52.0502042+05:30" finish="2021-09-17T11:54:54.2679088+05:30" />
+  <TestSettings name="default" id="ff310691-a6e5-45e2-9e40-0fa6b6de96b8">
+    <Deployment runDeploymentRoot="z0049mne_MD3H3FMC_2021-09-17_11_54_54" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="32d7d424-b070-4456-86dc-1ed8d3cd17f7" testId="c0c9e07e-0a83-e76a-095e-bbf8168ec560" testName="GetStatisticalData" computerName="MD3H3FMC" duration="00:00:00.1473391" startTime="2021-09-17T11:54:53.8564844+05:30" endTime="2021-09-17T11:54:54.0044494+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="32d7d424-b070-4456-86dc-1ed8d3cd17f7" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="bad2b3d9-4117-4856-9a62-37b537b31f4e" parentExecutionId="32d7d424-b070-4456-86dc-1ed8d3cd17f7" testId="c0c9e07e-0a83-e76a-095e-bbf8168ec560" testName="GetStatisticalData (Data Row 0)" computerName="MD3H3FMC" duration="00:00:00.0083525" startTime="2021-09-17T11:54:53.8564844+05:30" endTime="2021-09-17T11:54:54.0044494+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bad2b3d9-4117-4856-9a62-37b537b31f4e" dataRowInfo="1" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="d82185dd-9157-42df-a367-c3549f47f1b5" parentExecutionId="32d7d424-b070-4456-86dc-1ed8d3cd17f7" testId="c0c9e07e-0a83-e76a-095e-bbf8168ec560" testName="GetStatisticalData (Data Row 1)" computerName="MD3H3FMC" duration="00:00:00.0011099" startTime="2021-09-17T11:54:53.8564844+05:30" endTime="2021-09-17T11:54:54.0044494+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d82185dd-9157-42df-a367-c3549f47f1b5" dataRowInfo="2" resultType="DataDrivenDataRow" />
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="19475e9f-d961-4163-800e-dedaeb83900c" testId="fb3f85a5-ce4f-d64e-0c87-72a2e1e97d24" testName="GetObjectDataTimeSpanDiff" computerName="MD3H3FMC" duration="00:00:00.5953630" startTime="2021-09-17T11:54:52.7863164+05:30" endTime="2021-09-17T11:54:53.8454822+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="19475e9f-d961-4163-800e-dedaeb83900c" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="4d875992-9136-43e1-94bf-5d35f617e691" parentExecutionId="19475e9f-d961-4163-800e-dedaeb83900c" testId="fb3f85a5-ce4f-d64e-0c87-72a2e1e97d24" testName="GetObjectDataTimeSpanDiff (Data Row 0)" computerName="MD3H3FMC" duration="00:00:00.1135550" startTime="2021-09-17T11:54:52.7863164+05:30" endTime="2021-09-17T11:54:53.8454822+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4d875992-9136-43e1-94bf-5d35f617e691" dataRowInfo="1" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Assert.IsTrue failed. Start date is later than End Date</Message>
+              <StackTrace>   at SCM_TF.Database.Te_Database.GetObjectDataTimeSpanDiff()&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="a510fa07-3a5b-413a-a252-c086ff56f563" parentExecutionId="19475e9f-d961-4163-800e-dedaeb83900c" testId="fb3f85a5-ce4f-d64e-0c87-72a2e1e97d24" testName="GetObjectDataTimeSpanDiff (Data Row 1)" computerName="MD3H3FMC" duration="00:00:00.0016258" startTime="2021-09-17T11:54:52.7863164+05:30" endTime="2021-09-17T11:54:53.8454822+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a510fa07-3a5b-413a-a252-c086ff56f563" dataRowInfo="2" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Assert.IsTrue failed. Start date is later than End Date</Message>
+              <StackTrace>   at SCM_TF.Database.Te_Database.GetObjectDataTimeSpanDiff()&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="GetStatisticalData" storage="c:\users\z0049mne\source\repos\ms_test\scm_tf\scm_tf\references\scm_tf.dll" id="c0c9e07e-0a83-e76a-095e-bbf8168ec560">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Database" />
+        <TestCategoryItem TestCategory="Database01" />
+      </TestCategory>
+      <Execution id="32d7d424-b070-4456-86dc-1ed8d3cd17f7" />
+      <TestMethod codeBase="C:\Users\z0049mne\Source\Repos\ms_test\SCM_TF\SCM_TF\References\SCM_TF.dll" adapterTypeName="executor://mstestadapter/v2" className="SCM_TF.Database.Te_Database" name="GetStatisticalData" />
+    </UnitTest>
+    <UnitTest name="GetObjectDataTimeSpanDiff" storage="c:\users\z0049mne\source\repos\ms_test\scm_tf\scm_tf\references\scm_tf.dll" id="fb3f85a5-ce4f-d64e-0c87-72a2e1e97d24">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Database" />
+        <TestCategoryItem TestCategory="Database01" />
+      </TestCategory>
+      <Execution id="19475e9f-d961-4163-800e-dedaeb83900c" />
+      <TestMethod codeBase="C:\Users\z0049mne\Source\Repos\ms_test\SCM_TF\SCM_TF\References\SCM_TF.dll" adapterTypeName="executor://mstestadapter/v2" className="SCM_TF.Database.Te_Database" name="GetObjectDataTimeSpanDiff" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="c0c9e07e-0a83-e76a-095e-bbf8168ec560" executionId="32d7d424-b070-4456-86dc-1ed8d3cd17f7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fb3f85a5-ce4f-d64e-0c87-72a2e1e97d24" executionId="19475e9f-d961-4163-800e-dedaeb83900c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="6" executed="6" passed="3" failed="3" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

@@ -1,0 +1,25 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <h1>Configuration for Rule</h1>
+    <hr />
+    <form method="post" enctype="multipart/form-data" asp-controller="Home" asp-action="Details">
+        @if (ViewBag.testName != null)
+        {
+            <table>
+                <tr>
+                    <td>Select Test case Name</td>
+                    <td>@Html.ListBox("testName", new SelectList(ViewBag.testName, "testName"))</td>                   
+                </tr>
+
+                <tr>
+                    <td><input id="reset" type="reset" value="Reset" /></td>
+                    <td><input id="submit" type="submit" value="Next" /></td>
+                </tr>
+            </table>
+        }        
+    </form>
+</body>
+</html>

@@ -1,0 +1,73 @@
+﻿@using Microsoft.AspNetCore.Http;
+@inject IHttpContextAccessor HttpContextAccessor
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Home</title>
+    <link href="~/css/HomePage.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <nav class="topnav">
+            <input type="button" id="btnpopup" value="Configuration" onclick="ShowModelPopUp();" />
+        </nav>
+    </header>
+    <form method="post" enctype="multipart/form-data" asp-controller="Home" asp-action="HomePage">
+        <section>
+            <h1>Monitoring</h1>
+            <div class="container">
+                <input type="submit" name="startButton" value="Start" onclick="ShowProgress();" />
+                <input type="submit" name="stopButton" value="Stop" onclick="StopProgress();" />
+            </div>
+            <div class="result">
+
+                <div id="progressBar" style="height:10px;width:10px; position:center;display:none">
+                    <h4>Execution In Progress</h4>
+                    <img alt="progressBar" src="~/Images/ProgressBarr.gif" />
+                </div>
+
+                <div id="message" style="display:inline">
+                    @HttpContextAccessor.HttpContext.Session.GetString("message")
+                </div>
+
+                <br />
+
+                @if (!string.IsNullOrEmpty(@HttpContextAccessor.HttpContext.Session.GetString("message")) &&
+                  @HttpContextAccessor.HttpContext.Session.GetString("message").Contains("Execution Done"))
+                {
+                    <div id="link">
+                        @*<a href="/Home/Download?filename=TestCaseList.csv" >Link</a>*@
+                        <a href="file:///C:/Users/z0049mne/Source/Repos/ms_test/SCM_TF/MonitoringWebApp/Data/TestCaseList.csv" Target="_blank" style="font-size:20px">Download TRX file from here</a>
+                    </div>
+                }
+            </div>
+        </section>
+    </form>
+    <script type="text/javascript">
+        ShowModelPopUp = function () {
+            window.open('/Home/Details', "PopupWindow", 'width=600px,height=400px');
+        }
+
+        function ShowProgress() {
+            var bar = document.getElementById("progressBar");
+            if (bar.style.display == "none")
+                bar.style.display = "inline";
+            var message = document.getElementById("message");
+            if (message.style.display == "inline")
+                message.style.display = "none";
+        }
+
+        function StopProgress() {
+            var bar = document.getElementById("progressBar");
+            if (bar.style.display == "inline")
+                bar.style.display = "none";
+            var message = document.getElementById("message");
+            if (message.style.display == "none")
+                message.style.display = "inline";
+        }
+    </script>
+
+</body>
+</html>

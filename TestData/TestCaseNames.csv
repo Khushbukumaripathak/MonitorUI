@@ -1,0 +1,9 @@
+TestMethod
+GetObjectDataTimeSpanDiff
+CheckDateTimeStamp
+GetStatisticalData
+GetTopicDataObjectDataAWS
+VerifyCompareDataGatewayDatabase
+VerifyCompareDataMqttDatabase
+SST_ScmIQ_Home
+SST_ScmIQ_Navigation

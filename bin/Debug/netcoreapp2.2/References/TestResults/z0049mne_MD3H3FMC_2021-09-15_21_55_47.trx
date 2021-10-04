@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="93dd31c4-8d27-42cb-84dc-73e3663cdf65" name="z0049mne@MD3H3FMC 2021-09-15 21:55:47" runUser="AD001\z0049mne" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2021-09-15T21:55:47.5004355+05:30" queuing="2021-09-15T21:55:47.5004355+05:30" start="2021-09-15T21:55:40.5607834+05:30" finish="2021-09-15T21:55:47.5650401+05:30" />
+  <TestSettings name="default" id="0ffb7c83-bcd0-46bd-a084-31c1e5bfa4fb">
+    <Deployment runDeploymentRoot="z0049mne_MD3H3FMC_2021-09-15_21_55_47" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="4df2e881-8820-4e09-b9f9-1cf3d7f1ca21" testId="fb3f85a5-ce4f-d64e-0c87-72a2e1e97d24" testName="GetObjectDataTimeSpanDiff" computerName="MD3H3FMC" duration="00:00:01.0971590" startTime="2021-09-15T21:55:42.1405997+05:30" endTime="2021-09-15T21:55:47.2451210+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4df2e881-8820-4e09-b9f9-1cf3d7f1ca21" resultType="DataDrivenTest">
+      <Output>
+        <StdOut>Not able to open the test data worksheet due to : Object reference not set to an instance of an object.</StdOut>
+      </Output>
+      <InnerResults>
+        <UnitTestResult executionId="5dcac3e9-0077-4320-b567-0a96df24eaaf" parentExecutionId="4df2e881-8820-4e09-b9f9-1cf3d7f1ca21" testId="fb3f85a5-ce4f-d64e-0c87-72a2e1e97d24" testName="GetObjectDataTimeSpanDiff (Data Row 0)" computerName="MD3H3FMC" duration="00:00:00.2107372" startTime="2021-09-15T21:55:42.1405997+05:30" endTime="2021-09-15T21:55:47.2451210+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5dcac3e9-0077-4320-b567-0a96df24eaaf" dataRowInfo="1" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method SCM_TF.Database.Te_Database.GetObjectDataTimeSpanDiff threw exception: &#xD;
+System.InvalidCastException: Object cannot be cast from DBNull to other types.</Message>
+              <StackTrace>    at System.DBNull.System.IConvertible.ToDateTime(IFormatProvider provider)&#xD;
+   at SCM_TF.Database.Te_Database.GetObjectDataTimeSpanDiff()&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="GetObjectDataTimeSpanDiff" storage="c:\users\z0049mne\source\repos\ms_test\scm_tf\scm_tf\references\scm_tf.dll" id="fb3f85a5-ce4f-d64e-0c87-72a2e1e97d24">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Database" />
+        <TestCategoryItem TestCategory="Database01" />
+      </TestCategory>
+      <Execution id="4df2e881-8820-4e09-b9f9-1cf3d7f1ca21" />
+      <TestMethod codeBase="C:\Users\z0049mne\Source\Repos\ms_test\SCM_TF\SCM_TF\References\SCM_TF.dll" adapterTypeName="executor://mstestadapter/v2" className="SCM_TF.Database.Te_Database" name="GetObjectDataTimeSpanDiff" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="fb3f85a5-ce4f-d64e-0c87-72a2e1e97d24" executionId="4df2e881-8820-4e09-b9f9-1cf3d7f1ca21" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="2" executed="2" passed="0" failed="2" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

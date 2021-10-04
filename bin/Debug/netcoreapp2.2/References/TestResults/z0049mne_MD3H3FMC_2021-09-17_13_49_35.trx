@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="dc3270be-c9ad-421c-9552-ceb0c45e5d6d" name="z0049mne@MD3H3FMC 2021-09-17 13:49:35" runUser="AD001\z0049mne" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2021-09-17T13:49:35.2226348+05:30" queuing="2021-09-17T13:49:35.2226348+05:30" start="2021-09-17T13:48:52.5410625+05:30" finish="2021-09-17T13:49:35.2806373+05:30" />
+  <TestSettings name="default" id="d1b0f9e3-12c9-4cb0-9dca-2fbd1ad2bbe3">
+    <Deployment runDeploymentRoot="z0049mne_MD3H3FMC_2021-09-17_13_49_35" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="2132a2e2-98d0-4673-b0c0-58e257dad26d" testId="c0c9e07e-0a83-e76a-095e-bbf8168ec560" testName="GetStatisticalData" computerName="MD3H3FMC" duration="00:00:40.1271404" startTime="2021-09-17T13:48:54.0302193+05:30" endTime="2021-09-17T13:49:34.9436352+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2132a2e2-98d0-4673-b0c0-58e257dad26d" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="48ee8c8b-f76e-4908-a395-45ea6dd0c7a1" parentExecutionId="2132a2e2-98d0-4673-b0c0-58e257dad26d" testId="c0c9e07e-0a83-e76a-095e-bbf8168ec560" testName="GetStatisticalData (Data Row 0)" computerName="MD3H3FMC" duration="00:00:39.2999106" startTime="2021-09-17T13:48:54.0302193+05:30" endTime="2021-09-17T13:49:34.9436352+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="48ee8c8b-f76e-4908-a395-45ea6dd0c7a1" dataRowInfo="1" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>Statistical data for sensor:24EDFD0000C2&#xD;
+Package Count for Temperature: 829 for dated: 06/19/2021&#xD;
+Minimum Temperature : 25.56°C on dated 06/19/2021 03:43:44&#xD;
+Maximum temperature : 26.79°C on dated 06/19/2021 16:50:46&#xD;
+Average temperature : 26.08°C for 829 temperature values for dated 06/19/2021&#xD;
+Package Count for Signal :830 for dated 06/19/2021&#xD;
+Minimum Signal strength : -62db on dated 06/19/2021 00:00:12&#xD;
+Maximum Signal strength : -50db on dated 06/19/2021 23:54:02&#xD;
+Average Signal strength : -54.73db for 830 signal strength values for dated 06/19/2021&#xD;
+Package Count for Axis: X is 829 for dated 06/19/2021&#xD;
+Package Count for Axis: Y is 829 for dated 06/19/2021&#xD;
+Package Count for Axis: Z is 829 for dated 06/19/2021&#xD;
+Axis: X Minimum vibration : 1984 on dated 06/19/2021 23:24:11&#xD;
+Axis: Y Minimum vibration : -54 on dated 06/19/2021 03:13:33&#xD;
+Axis: Z Minimum vibration : 5 on dated 06/19/2021 20:09:01&#xD;
+Axis: X Maximum vibration : 2062 on dated 06/19/2021 23:59:02&#xD;
+Axis: Y Maximum vibration : 26 on dated 06/19/2021 23:59:02&#xD;
+Axis: Z Maximum vibration : 89 on dated 06/19/2021 23:59:02&#xD;
+Axis: X Average vibration : 2033 for dated 06/19/2021&#xD;
+Axis: Y Average vibration : 0 for dated 06/19/2021&#xD;
+Axis: Z Average vibration : 56 for dated 06/19/2021&#xD;
+&#xD;
+Percentage Vibration: 86.43&#xD;
+---Verifying the Vibration Axis wise---&#xD;
+Package Count X axis: 829&#xD;
+Package Count Y axis: 829&#xD;
+Package Count Z axis: 829&#xD;
+Passed: No difference in date time stamp!&#xD;
+&#xD;
+&#xD;
+Statistical data for sensor:24EDFD0000C2&#xD;
+Package Count for Temperature: 835 for dated: 06/20/2021&#xD;
+Minimum Temperature : 26.09°C on dated 06/20/2021 03:53:13&#xD;
+Maximum temperature : 27.1°C on dated 06/20/2021 16:15:30&#xD;
+Average temperature : 26.5°C for 835 temperature values for dated 06/20/2021&#xD;
+Package Count for Signal :835 for dated 06/20/2021&#xD;
+Minimum Signal strength : -63db on dated 06/20/2021 09:44:29&#xD;
+Maximum Signal strength : -46db on dated 06/20/2021 19:06:51&#xD;
+Average Signal strength : -55.14db for 835 signal strength values for dated 06/20/2021&#xD;
+Package Count for Axis: X is 834 for dated 06/20/2021&#xD;
+Package Count for Axis: Y is 834 for dated 06/20/2021&#xD;
+Package Count for Axis: Z is 834 for dated 06/20/2021&#xD;
+Axis: X Minimum vibration : 1988 on dated 06/20/2021 06:51:19&#xD;
+Axis: Y Minimum vibration : -47 on dated 06/20/2021 08:57:45&#xD;
+Axis: Z Minimum vibration : 10 on dated 06/20/2021 10:26:09&#xD;
+Axis: X Maximum vibration : 2059 on dated 06/20/2021 23:59:04&#xD;
+Axis: Y Maximum vibration : 30 on dated 06/20/2021 23:59:04&#xD;
+Axis: Z Maximum vibration : 83 on dated 06/20/2021 23:59:04&#xD;
+Axis: X Average vibration : 2033 for dated 06/20/2021&#xD;
+Axis: Y Average vibration : -2 for dated 06/20/2021&#xD;
+Axis: Z Average vibration : 56 for dated 06/20/2021&#xD;
+&#xD;
+Percentage Vibration: 86.97&#xD;
+---Verifying the Vibration Axis wise---&#xD;
+Package Count X axis: 834&#xD;
+Package Count Y axis: 834&#xD;
+Package Count Z axis: 834&#xD;
+Passed: No difference in date time stamp!</StdOut>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="9dc500cb-47de-43dc-aa54-c98d2edcfbfa" parentExecutionId="2132a2e2-98d0-4673-b0c0-58e257dad26d" testId="c0c9e07e-0a83-e76a-095e-bbf8168ec560" testName="GetStatisticalData (Data Row 1)" computerName="MD3H3FMC" duration="00:00:00.0034393" startTime="2021-09-17T13:48:54.0302193+05:30" endTime="2021-09-17T13:49:34.9436352+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9dc500cb-47de-43dc-aa54-c98d2edcfbfa" dataRowInfo="2" resultType="DataDrivenDataRow" />
+      </InnerResults>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="GetStatisticalData" storage="c:\users\z0049mne\source\repos\ms_test\scm_tf\scm_tf\references\scm_tf.dll" id="c0c9e07e-0a83-e76a-095e-bbf8168ec560">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Database" />
+        <TestCategoryItem TestCategory="Database01" />
+      </TestCategory>
+      <Execution id="2132a2e2-98d0-4673-b0c0-58e257dad26d" />
+      <TestMethod codeBase="C:\Users\z0049mne\Source\Repos\ms_test\SCM_TF\SCM_TF\References\SCM_TF.dll" adapterTypeName="executor://mstestadapter/v2" className="SCM_TF.Database.Te_Database" name="GetStatisticalData" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="c0c9e07e-0a83-e76a-095e-bbf8168ec560" executionId="2132a2e2-98d0-4673-b0c0-58e257dad26d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="3" executed="3" passed="3" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

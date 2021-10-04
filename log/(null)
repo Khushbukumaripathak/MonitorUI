@@ -1,0 +1,5 @@
+2021-09-29 19:40:08,718 INFO 
+----Hex code for Sensor Tag: 24EDFD0000C2 for date: 2021-06-22 having Vibration data----
+2021-09-29 19:40:08,741 INFO 
+2021-09-29 19:40:08,742 ERROR 
+Unknown encountered on server. Message:'Received an unexpected EOF or 0 bytes from the transport stream.' when reading object

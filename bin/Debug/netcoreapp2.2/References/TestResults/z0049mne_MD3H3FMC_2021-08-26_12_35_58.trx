@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="8a0c520b-5340-400a-a1fc-7eb48af63eb0" name="z0049mne@MD3H3FMC 2021-08-26 12:35:58" runUser="AD001\z0049mne" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2021-08-26T12:35:58.7272527+05:30" queuing="2021-08-26T12:35:58.7272527+05:30" start="2021-08-26T12:35:51.2809349+05:30" finish="2021-08-26T12:35:59.0264994+05:30" />
+  <TestSettings name="default" id="dd3ddd82-8a55-4b61-87e7-cfb6263dcece">
+    <Deployment runDeploymentRoot="z0049mne_MD3H3FMC_2021-08-26_12_35_58" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="e0e6a0b0-418e-448c-aa1f-07c45563d2fe" testId="fb3f85a5-ce4f-d64e-0c87-72a2e1e97d24" testName="GetObjectDataTimeSpanDiff" computerName="MD3H3FMC" duration="00:00:03.1461381" startTime="2021-08-26T12:35:51.4604843+05:30" endTime="2021-08-26T12:35:58.7053075+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e0e6a0b0-418e-448c-aa1f-07c45563d2fe" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="b7dd8fd1-e425-4603-88eb-56d98dc93d3c" parentExecutionId="e0e6a0b0-418e-448c-aa1f-07c45563d2fe" testId="fb3f85a5-ce4f-d64e-0c87-72a2e1e97d24" testName="GetObjectDataTimeSpanDiff (Data Row 0)" computerName="MD3H3FMC" duration="00:00:00.4373607" startTime="2021-08-26T12:35:51.4604843+05:30" endTime="2021-08-26T12:35:58.7053075+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b7dd8fd1-e425-4603-88eb-56d98dc93d3c" dataRowInfo="1" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>Time Span Difference data for date : 2023-06-18 for Sensor Tag: 24EDFD0000C2 for dataType: Signal Strength&#xD;
+Error: End date cannot be future date!&#xD;
+Error: Start date cannot be future date!&#xD;
+Issue while fetching data of Signal!</StdOut>
+            <ErrorInfo>
+              <Message>Assert.IsTrue failed. Issue while fetching data for date 6/18/2023 12:00:00 AM</Message>
+              <StackTrace>   at SCM_TF.Database.Te_Database.GetObjectDataTimeSpanDiff()&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="bb20171d-9c7e-4122-ad20-dcd88ecc2a35" parentExecutionId="e0e6a0b0-418e-448c-aa1f-07c45563d2fe" testId="fb3f85a5-ce4f-d64e-0c87-72a2e1e97d24" testName="GetObjectDataTimeSpanDiff (Data Row 1)" computerName="MD3H3FMC" duration="00:00:00.0033514" startTime="2021-08-26T12:35:51.4604843+05:30" endTime="2021-08-26T12:35:58.7053075+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bb20171d-9c7e-4122-ad20-dcd88ecc2a35" dataRowInfo="2" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>Time Span Difference data for date : 2023-06-18 for Sensor Tag: 24EDFD0000C2 for dataType: Signal Strength&#xD;
+Error: End date cannot be future date!&#xD;
+Error: Start date cannot be future date!&#xD;
+Issue while fetching data of Signal!</StdOut>
+            <ErrorInfo>
+              <Message>Assert.IsTrue failed. Issue while fetching data for date 6/18/2023 12:00:00 AM</Message>
+              <StackTrace>   at SCM_TF.Database.Te_Database.GetObjectDataTimeSpanDiff()&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="d471d666-5d13-4ce8-874c-b544aa6d7363" parentExecutionId="e0e6a0b0-418e-448c-aa1f-07c45563d2fe" testId="fb3f85a5-ce4f-d64e-0c87-72a2e1e97d24" testName="GetObjectDataTimeSpanDiff (Data Row 2)" computerName="MD3H3FMC" duration="00:00:00.0030090" startTime="2021-08-26T12:35:51.4604843+05:30" endTime="2021-08-26T12:35:58.7053075+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d471d666-5d13-4ce8-874c-b544aa6d7363" dataRowInfo="3" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>Time Span Difference data for date : 2023-06-18 for Sensor Tag: 24EDFD0000C2 for dataType: Signal Strength&#xD;
+Error: End date cannot be future date!&#xD;
+Error: Start date cannot be future date!&#xD;
+Issue while fetching data of Signal!</StdOut>
+            <ErrorInfo>
+              <Message>Assert.IsTrue failed. Issue while fetching data for date 6/18/2023 12:00:00 AM</Message>
+              <StackTrace>   at SCM_TF.Database.Te_Database.GetObjectDataTimeSpanDiff()&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="1b15f9fd-a5e0-4a9a-b5fc-ba1b3a0aeb0f" parentExecutionId="e0e6a0b0-418e-448c-aa1f-07c45563d2fe" testId="fb3f85a5-ce4f-d64e-0c87-72a2e1e97d24" testName="GetObjectDataTimeSpanDiff (Data Row 3)" computerName="MD3H3FMC" duration="00:00:00.0031455" startTime="2021-08-26T12:35:51.4604843+05:30" endTime="2021-08-26T12:35:58.7053075+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1b15f9fd-a5e0-4a9a-b5fc-ba1b3a0aeb0f" dataRowInfo="4" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>Time Span Difference data for date : 2023-06-18 for Sensor Tag: 24EDFD0000C2 for dataType: Signal Strength&#xD;
+Error: End date cannot be future date!&#xD;
+Error: Start date cannot be future date!&#xD;
+Issue while fetching data of Signal!</StdOut>
+            <ErrorInfo>
+              <Message>Assert.IsTrue failed. Issue while fetching data for date 6/18/2023 12:00:00 AM</Message>
+              <StackTrace>   at SCM_TF.Database.Te_Database.GetObjectDataTimeSpanDiff()&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="e4bd8db5-1c5a-4c3c-91d1-0ebda782e948" parentExecutionId="e0e6a0b0-418e-448c-aa1f-07c45563d2fe" testId="fb3f85a5-ce4f-d64e-0c87-72a2e1e97d24" testName="GetObjectDataTimeSpanDiff (Data Row 4)" computerName="MD3H3FMC" duration="00:00:00.0029118" startTime="2021-08-26T12:35:51.4604843+05:30" endTime="2021-08-26T12:35:58.7053075+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e4bd8db5-1c5a-4c3c-91d1-0ebda782e948" dataRowInfo="5" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>Time Span Difference data for date : 2023-06-18 for Sensor Tag: 24EDFD0000C2 for dataType: Signal Strength&#xD;
+Error: End date cannot be future date!&#xD;
+Error: Start date cannot be future date!&#xD;
+Issue while fetching data of Signal!</StdOut>
+            <ErrorInfo>
+              <Message>Assert.IsTrue failed. Issue while fetching data for date 6/18/2023 12:00:00 AM</Message>
+              <StackTrace>   at SCM_TF.Database.Te_Database.GetObjectDataTimeSpanDiff()&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="798bfd6d-53a4-44b3-b474-d39b22873749" parentExecutionId="e0e6a0b0-418e-448c-aa1f-07c45563d2fe" testId="fb3f85a5-ce4f-d64e-0c87-72a2e1e97d24" testName="GetObjectDataTimeSpanDiff (Data Row 5)" computerName="MD3H3FMC" duration="00:00:00.0037265" startTime="2021-08-26T12:35:51.4604843+05:30" endTime="2021-08-26T12:35:58.7053075+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="798bfd6d-53a4-44b3-b474-d39b22873749" dataRowInfo="6" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>Time Span Difference data for date : 2023-06-18 for Sensor Tag: 24EDFD0000C2 for dataType: Signal Strength&#xD;
+Error: End date cannot be future date!&#xD;
+Error: Start date cannot be future date!&#xD;
+Issue while fetching data of Signal!</StdOut>
+            <ErrorInfo>
+              <Message>Assert.IsTrue failed. Issue while fetching data for date 6/18/2023 12:00:00 AM</Message>
+              <StackTrace>   at SCM_TF.Database.Te_Database.GetObjectDataTimeSpanDiff()&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="13f9d3f4-780c-4992-a9b5-4359d020b5f1" parentExecutionId="e0e6a0b0-418e-448c-aa1f-07c45563d2fe" testId="fb3f85a5-ce4f-d64e-0c87-72a2e1e97d24" testName="GetObjectDataTimeSpanDiff (Data Row 6)" computerName="MD3H3FMC" duration="00:00:00.0038790" startTime="2021-08-26T12:35:51.4604843+05:30" endTime="2021-08-26T12:35:58.7053075+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="13f9d3f4-780c-4992-a9b5-4359d020b5f1" dataRowInfo="7" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>Time Span Difference data for date : 2023-06-18 for Sensor Tag: 24EDFD0000C2 for dataType: Signal Strength&#xD;
+Error: End date cannot be future date!&#xD;
+Error: Start date cannot be future date!&#xD;
+Issue while fetching data of Signal!</StdOut>
+            <ErrorInfo>
+              <Message>Assert.IsTrue failed. Issue while fetching data for date 6/18/2023 12:00:00 AM</Message>
+              <StackTrace>   at SCM_TF.Database.Te_Database.GetObjectDataTimeSpanDiff()&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="7a65cdf0-404d-463d-a886-7b0eb7bd1124" parentExecutionId="e0e6a0b0-418e-448c-aa1f-07c45563d2fe" testId="fb3f85a5-ce4f-d64e-0c87-72a2e1e97d24" testName="GetObjectDataTimeSpanDiff (Data Row 7)" computerName="MD3H3FMC" duration="00:00:00.0036923" startTime="2021-08-26T12:35:51.4604843+05:30" endTime="2021-08-26T12:35:58.7053075+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7a65cdf0-404d-463d-a886-7b0eb7bd1124" dataRowInfo="8" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>Time Span Difference data for date : 2023-06-18 for Sensor Tag: 24EDFD0000C2 for dataType: Signal Strength&#xD;
+Error: End date cannot be future date!&#xD;
+Error: Start date cannot be future date!&#xD;
+Issue while fetching data of Signal!</StdOut>
+            <ErrorInfo>
+              <Message>Assert.IsTrue failed. Issue while fetching data for date 6/18/2023 12:00:00 AM</Message>
+              <StackTrace>   at SCM_TF.Database.Te_Database.GetObjectDataTimeSpanDiff()&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="6864473e-ca5f-4e92-8730-adbc739c83f6" parentExecutionId="e0e6a0b0-418e-448c-aa1f-07c45563d2fe" testId="fb3f85a5-ce4f-d64e-0c87-72a2e1e97d24" testName="GetObjectDataTimeSpanDiff (Data Row 8)" computerName="MD3H3FMC" duration="00:00:00.0036710" startTime="2021-08-26T12:35:51.4604843+05:30" endTime="2021-08-26T12:35:58.7053075+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6864473e-ca5f-4e92-8730-adbc739c83f6" dataRowInfo="9" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>Time Span Difference data for date : 2023-06-18 for Sensor Tag: 24EDFD0000C2 for dataType: Signal Strength&#xD;
+Error: End date cannot be future date!&#xD;
+Error: Start date cannot be future date!&#xD;
+Issue while fetching data of Signal!</StdOut>
+            <ErrorInfo>
+              <Message>Assert.IsTrue failed. Issue while fetching data for date 6/18/2023 12:00:00 AM</Message>
+              <StackTrace>   at SCM_TF.Database.Te_Database.GetObjectDataTimeSpanDiff()&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="59cc0013-31dc-4b19-8f44-8438081db296" parentExecutionId="e0e6a0b0-418e-448c-aa1f-07c45563d2fe" testId="fb3f85a5-ce4f-d64e-0c87-72a2e1e97d24" testName="GetObjectDataTimeSpanDiff (Data Row 9)" computerName="MD3H3FMC" duration="00:00:00.0036509" startTime="2021-08-26T12:35:51.4604843+05:30" endTime="2021-08-26T12:35:58.7053075+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="59cc0013-31dc-4b19-8f44-8438081db296" dataRowInfo="10" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>Time Span Difference data for date : 2023-06-18 for Sensor Tag: 24EDFD0000C2 for dataType: Signal Strength&#xD;
+Error: End date cannot be future date!&#xD;
+Error: Start date cannot be future date!&#xD;
+Issue while fetching data of Signal!</StdOut>
+            <ErrorInfo>
+              <Message>Assert.IsTrue failed. Issue while fetching data for date 6/18/2023 12:00:00 AM</Message>
+              <StackTrace>   at SCM_TF.Database.Te_Database.GetObjectDataTimeSpanDiff()&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="e4e25699-ad22-4584-93ec-628660afc9aa" parentExecutionId="e0e6a0b0-418e-448c-aa1f-07c45563d2fe" testId="fb3f85a5-ce4f-d64e-0c87-72a2e1e97d24" testName="GetObjectDataTimeSpanDiff (Data Row 10)" computerName="MD3H3FMC" duration="00:00:00.0035861" startTime="2021-08-26T12:35:51.4604843+05:30" endTime="2021-08-26T12:35:58.7053075+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e4e25699-ad22-4584-93ec-628660afc9aa" dataRowInfo="11" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>Time Span Difference data for date : 2023-06-18 for Sensor Tag: 24EDFD0000C2 for dataType: Signal Strength&#xD;
+Error: End date cannot be future date!&#xD;
+Error: Start date cannot be future date!&#xD;
+Issue while fetching data of Signal!</StdOut>
+            <ErrorInfo>
+              <Message>Assert.IsTrue failed. Issue while fetching data for date 6/18/2023 12:00:00 AM</Message>
+              <StackTrace>   at SCM_TF.Database.Te_Database.GetObjectDataTimeSpanDiff()&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="e8b65ab8-bcd8-4e66-a585-010a36deb472" parentExecutionId="e0e6a0b0-418e-448c-aa1f-07c45563d2fe" testId="fb3f85a5-ce4f-d64e-0c87-72a2e1e97d24" testName="GetObjectDataTimeSpanDiff (Data Row 11)" computerName="MD3H3FMC" duration="00:00:00.0031769" startTime="2021-08-26T12:35:51.4604843+05:30" endTime="2021-08-26T12:35:58.7053075+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e8b65ab8-bcd8-4e66-a585-010a36deb472" dataRowInfo="12" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>Time Span Difference data for date : 2023-06-18 for Sensor Tag: 24EDFD0000C2 for dataType: Signal Strength&#xD;
+Error: End date cannot be future date!&#xD;
+Error: Start date cannot be future date!&#xD;
+Issue while fetching data of Signal!</StdOut>
+            <ErrorInfo>
+              <Message>Assert.IsTrue failed. Issue while fetching data for date 6/18/2023 12:00:00 AM</Message>
+              <StackTrace>   at SCM_TF.Database.Te_Database.GetObjectDataTimeSpanDiff()&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="e2a7581b-1db2-4229-8e3b-ca985ac1580f" parentExecutionId="e0e6a0b0-418e-448c-aa1f-07c45563d2fe" testId="fb3f85a5-ce4f-d64e-0c87-72a2e1e97d24" testName="GetObjectDataTimeSpanDiff (Data Row 12)" computerName="MD3H3FMC" duration="00:00:00.0030393" startTime="2021-08-26T12:35:51.4604843+05:30" endTime="2021-08-26T12:35:58.7053075+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e2a7581b-1db2-4229-8e3b-ca985ac1580f" dataRowInfo="13" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>Time Span Difference data for date : 2023-06-18 for Sensor Tag: 24EDFD0000C2 for dataType: Signal Strength&#xD;
+Error: End date cannot be future date!&#xD;
+Error: Start date cannot be future date!&#xD;
+Issue while fetching data of Signal!</StdOut>
+            <ErrorInfo>
+              <Message>Assert.IsTrue failed. Issue while fetching data for date 6/18/2023 12:00:00 AM</Message>
+              <StackTrace>   at SCM_TF.Database.Te_Database.GetObjectDataTimeSpanDiff()&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="7fb8a050-37a4-4f27-a61e-6821a8419ac4" parentExecutionId="e0e6a0b0-418e-448c-aa1f-07c45563d2fe" testId="fb3f85a5-ce4f-d64e-0c87-72a2e1e97d24" testName="GetObjectDataTimeSpanDiff (Data Row 13)" computerName="MD3H3FMC" duration="00:00:00.0027539" startTime="2021-08-26T12:35:51.4604843+05:30" endTime="2021-08-26T12:35:58.7053075+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7fb8a050-37a4-4f27-a61e-6821a8419ac4" dataRowInfo="14" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>Time Span Difference data for date : 2023-06-18 for Sensor Tag: 24EDFD0000C2 for dataType: Signal Strength&#xD;
+Error: End date cannot be future date!&#xD;
+Error: Start date cannot be future date!&#xD;
+Issue while fetching data of Signal!</StdOut>
+            <ErrorInfo>
+              <Message>Assert.IsTrue failed. Issue while fetching data for date 6/18/2023 12:00:00 AM</Message>
+              <StackTrace>   at SCM_TF.Database.Te_Database.GetObjectDataTimeSpanDiff()&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="728e56ea-17e4-4f74-9378-9db8e7b9a914" parentExecutionId="e0e6a0b0-418e-448c-aa1f-07c45563d2fe" testId="fb3f85a5-ce4f-d64e-0c87-72a2e1e97d24" testName="GetObjectDataTimeSpanDiff (Data Row 14)" computerName="MD3H3FMC" duration="00:00:00.0038420" startTime="2021-08-26T12:35:51.4604843+05:30" endTime="2021-08-26T12:35:58.7053075+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="728e56ea-17e4-4f74-9378-9db8e7b9a914" dataRowInfo="15" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>Time Span Difference data for date : 2023-06-18 for Sensor Tag: 24EDFD0000C2 for dataType: Signal Strength&#xD;
+Error: End date cannot be future date!&#xD;
+Error: Start date cannot be future date!&#xD;
+Issue while fetching data of Signal!</StdOut>
+            <ErrorInfo>
+              <Message>Assert.IsTrue failed. Issue while fetching data for date 6/18/2023 12:00:00 AM</Message>
+              <StackTrace>   at SCM_TF.Database.Te_Database.GetObjectDataTimeSpanDiff()&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="676d2015-c612-4422-beee-7e1bd05c676b" parentExecutionId="e0e6a0b0-418e-448c-aa1f-07c45563d2fe" testId="fb3f85a5-ce4f-d64e-0c87-72a2e1e97d24" testName="GetObjectDataTimeSpanDiff (Data Row 15)" computerName="MD3H3FMC" duration="00:00:00.0029505" startTime="2021-08-26T12:35:51.4604843+05:30" endTime="2021-08-26T12:35:58.7053075+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="676d2015-c612-4422-beee-7e1bd05c676b" dataRowInfo="16" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>Time Span Difference data for date : 2023-06-18 for Sensor Tag: 24EDFD0000C2 for dataType: Signal Strength&#xD;
+Error: End date cannot be future date!&#xD;
+Error: Start date cannot be future date!&#xD;
+Issue while fetching data of Signal!</StdOut>
+            <ErrorInfo>
+              <Message>Assert.IsTrue failed. Issue while fetching data for date 6/18/2023 12:00:00 AM</Message>
+              <StackTrace>   at SCM_TF.Database.Te_Database.GetObjectDataTimeSpanDiff()&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="36b86710-280e-4cba-82a5-9bee6fabb3e7" parentExecutionId="e0e6a0b0-418e-448c-aa1f-07c45563d2fe" testId="fb3f85a5-ce4f-d64e-0c87-72a2e1e97d24" testName="GetObjectDataTimeSpanDiff (Data Row 16)" computerName="MD3H3FMC" duration="00:00:00.0029267" startTime="2021-08-26T12:35:51.4604843+05:30" endTime="2021-08-26T12:35:58.7053075+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="36b86710-280e-4cba-82a5-9bee6fabb3e7" dataRowInfo="17" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>Time Span Difference data for date : 2023-06-18 for Sensor Tag: 24EDFD0000C2 for dataType: Signal Strength&#xD;
+Error: End date cannot be future date!&#xD;
+Error: Start date cannot be future date!&#xD;
+Issue while fetching data of Signal!</StdOut>
+            <ErrorInfo>
+              <Message>Assert.IsTrue failed. Issue while fetching data for date 6/18/2023 12:00:00 AM</Message>
+              <StackTrace>   at SCM_TF.Database.Te_Database.GetObjectDataTimeSpanDiff()&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="78419bc1-633b-410d-892a-797efe446591" parentExecutionId="e0e6a0b0-418e-448c-aa1f-07c45563d2fe" testId="fb3f85a5-ce4f-d64e-0c87-72a2e1e97d24" testName="GetObjectDataTimeSpanDiff (Data Row 17)" computerName="MD3H3FMC" duration="00:00:01.4347145" startTime="2021-08-26T12:35:51.4604843+05:30" endTime="2021-08-26T12:35:58.7053075+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="78419bc1-633b-410d-892a-797efe446591" dataRowInfo="18" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>Time Span Difference data for date : 2021-06-18 for Sensor Tag: 24EDFD0000C2 for dataType: Signal Strength&#xD;
+Package Count 835&#xD;
+Error: Data between time: 06/18/2021 01:05:13 and 06/18/2021 01:09:17&#xD;
+Error: Sensor has not sent data for 0 hour 4 minute and 4 seconds long&#xD;
+Error: The max time lapse in seconds: 244 &#xD;
+Error: Data between time: 06/18/2021 02:42:16 and 06/18/2021 02:46:05&#xD;
+Error: Sensor has not sent data for 0 hour 3 minute and 48 seconds long&#xD;
+Error: The max time lapse in seconds: 244 &#xD;
+Error: Data between time: 06/18/2021 02:52:35 and 06/18/2021 02:54:41&#xD;
+Error: Sensor has not sent data for 0 hour 2 minute and 5 seconds long&#xD;
+Error: The max time lapse in seconds: 244 &#xD;
+Error: Data between time: 06/18/2021 03:11:00 and 06/18/2021 03:14:25&#xD;
+Error: Sensor has not sent data for 0 hour 3 minute and 25 seconds long&#xD;
+Error: The max time lapse in seconds: 244 &#xD;
+Error: Data between time: 06/18/2021 03:35:48 and 06/18/2021 03:39:23&#xD;
+Error: Sensor has not sent data for 0 hour 3 minute and 35 seconds long&#xD;
+Error: The max time lapse in seconds: 244 &#xD;
+Error: Data between time: 06/18/2021 04:49:00 and 06/18/2021 04:52:25&#xD;
+Error: Sensor has not sent data for 0 hour 3 minute and 24 seconds long&#xD;
+Error: The max time lapse in seconds: 244 &#xD;
+Error: Data between time: 06/18/2021 07:10:29 and 06/18/2021 07:14:35&#xD;
+Error: Sensor has not sent data for 0 hour 4 minute and 6 seconds long&#xD;
+Error: The max time lapse in seconds: 246 &#xD;
+Error: Data between time: 06/18/2021 09:12:34 and 06/18/2021 09:16:19&#xD;
+Error: Sensor has not sent data for 0 hour 3 minute and 44 seconds long&#xD;
+Error: The max time lapse in seconds: 246 &#xD;
+Error: Data between time: 06/18/2021 10:01:05 and 06/18/2021 10:04:50&#xD;
+Error: Sensor has not sent data for 0 hour 3 minute and 44 seconds long&#xD;
+Error: The max time lapse in seconds: 246 &#xD;
+Error: Data between time: 06/18/2021 11:20:55 and 06/18/2021 11:25:37&#xD;
+Error: Sensor has not sent data for 0 hour 4 minute and 42 seconds long&#xD;
+Error: The max time lapse in seconds: 282 &#xD;
+Error: Data between time: 06/18/2021 11:25:37 and 06/18/2021 11:28:31&#xD;
+Error: Sensor has not sent data for 0 hour 2 minute and 54 seconds long&#xD;
+Error: The max time lapse in seconds: 282 &#xD;
+Error: Data between time: 06/18/2021 11:31:39 and 06/18/2021 11:35:14&#xD;
+Error: Sensor has not sent data for 0 hour 3 minute and 35 seconds long&#xD;
+Error: The max time lapse in seconds: 282 &#xD;
+Error: Data between time: 06/18/2021 11:40:14 and 06/18/2021 11:43:35&#xD;
+Error: Sensor has not sent data for 0 hour 3 minute and 21 seconds long&#xD;
+Error: The max time lapse in seconds: 282 &#xD;
+Error: Data between time: 06/18/2021 12:35:05 and 06/18/2021 12:38:34&#xD;
+Error: Sensor has not sent data for 0 hour 3 minute and 29 seconds long&#xD;
+Error: The max time lapse in seconds: 282 &#xD;
+Error: Data between time: 06/18/2021 12:46:43 and 06/18/2021 12:48:50&#xD;
+Error: Sensor has not sent data for 0 hour 2 minute and 6 seconds long&#xD;
+Error: The max time lapse in seconds: 282 &#xD;
+Error: Data between time: 06/18/2021 13:09:43 and 06/18/2021 13:13:36&#xD;
+Error: Sensor has not sent data for 0 hour 3 minute and 53 seconds long&#xD;
+Error: The max time lapse in seconds: 282 &#xD;
+Error: Data between time: 06/18/2021 14:46:36 and 06/18/2021 14:50:24&#xD;
+Error: Sensor has not sent data for 0 hour 3 minute and 47 seconds long&#xD;
+Error: The max time lapse in seconds: 282 &#xD;
+Error: Data between time: 06/18/2021 15:10:11 and 06/18/2021 15:15:18&#xD;
+Error: Sensor has not sent data for 0 hour 5 minute and 7 seconds long&#xD;
+Error: The max time lapse in seconds: 307 &#xD;
+Error: Data between time: 06/18/2021 15:25:20 and 06/18/2021 15:28:48&#xD;
+Error: Sensor has not sent data for 0 hour 3 minute and 28 seconds long&#xD;
+Error: The max time lapse in seconds: 307 &#xD;
+Error: Data between time: 06/18/2021 18:51:29 and 06/18/2021 18:55:36&#xD;
+Error: Sensor has not sent data for 0 hour 4 minute and 7 seconds long&#xD;
+Error: The max time lapse in seconds: 307 &#xD;
+Error: Data between time: 06/18/2021 19:07:03 and 06/18/2021 19:10:42&#xD;
+Error: Sensor has not sent data for 0 hour 3 minute and 38 seconds long&#xD;
+Error: The max time lapse in seconds: 307 &#xD;
+Error: Data between time: 06/18/2021 20:31:32 and 06/18/2021 20:34:53&#xD;
+Error: Sensor has not sent data for 0 hour 3 minute and 20 seconds long&#xD;
+Error: The max time lapse in seconds: 307 &#xD;
+Error: Data between time: 06/18/2021 20:54:55 and 06/18/2021 20:58:20&#xD;
+Error: Sensor has not sent data for 0 hour 3 minute and 24 seconds long&#xD;
+Error: The max time lapse in seconds: 307 &#xD;
+Error: Data between time: 06/18/2021 21:09:57 and 06/18/2021 21:13:58&#xD;
+Error: Sensor has not sent data for 0 hour 4 minute and 0 seconds long&#xD;
+Error: The max time lapse in seconds: 307 &#xD;
+Error: Data between time: 06/18/2021 23:21:53 and 06/18/2021 23:30:59&#xD;
+Error: Sensor has not sent data for 0 hour 9 minute and 5 seconds long&#xD;
+Error: The max time lapse in seconds: 545 &#xD;
+Error: Data between time: 06/18/2021 23:30:59 and 06/18/2021 23:33:25&#xD;
+Error: Sensor has not sent data for 0 hour 2 minute and 25 seconds long&#xD;
+Error: The max time lapse in seconds: 545</StdOut>
+            <ErrorInfo>
+              <Message>Assert.IsTrue failed. Issue while fetching data for date 6/18/2021 12:00:00 AM</Message>
+              <StackTrace>   at SCM_TF.Database.Te_Database.GetObjectDataTimeSpanDiff()&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="GetObjectDataTimeSpanDiff" storage="c:\users\z0049mne\source\repos\ms_test\scm_tf\scm_tf\references\scm_tf.dll" id="fb3f85a5-ce4f-d64e-0c87-72a2e1e97d24">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Database" />
+        <TestCategoryItem TestCategory="Database01" />
+      </TestCategory>
+      <Execution id="e0e6a0b0-418e-448c-aa1f-07c45563d2fe" />
+      <TestMethod codeBase="C:\Users\z0049mne\Source\Repos\ms_test\SCM_TF\SCM_TF\References\SCM_TF.dll" adapterTypeName="executor://mstestadapter/v2" className="SCM_TF.Database.Te_Database" name="GetObjectDataTimeSpanDiff" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="fb3f85a5-ce4f-d64e-0c87-72a2e1e97d24" executionId="e0e6a0b0-418e-448c-aa1f-07c45563d2fe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="19" executed="19" passed="0" failed="19" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

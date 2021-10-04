@@ -1,0 +1,46 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+@using Microsoft.AspNetCore.Http;
+@inject IHttpContextAccessor HttpContextAccessor
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>DetailsView</title>
+</head>
+<body>
+    <h1>Configuration for Rule</h1>
+    <hr />
+    <form method="post" enctype="multipart/form-data" asp-controller="Home" asp-action="DetailsView">
+        @if (!string.IsNullOrEmpty(HttpContextAccessor.HttpContext.Session.GetString("testName")))
+        {
+            <table border="0">
+                <tr>
+                    <th>TestCase Name</th>
+                    <th>Insert Cycle count</th>
+                    <th>Insert Loop count</th>
+                </tr>
+                @foreach (var test in @HttpContextAccessor.HttpContext.Session.GetString("testName").Split(',').ToList())
+                {
+                    <tr>
+                        <td>@test</td>
+                        <td>@Html.TextBox("cycleTime")</td>
+                        <td>@Html.TextBox("loopCount")</td>
+                    </tr>
+                }
+                <tr>
+                    <td><input name="reset" type="reset" value="Reset" /></td>
+                    <td><input name="save" type="submit" value="Save" /></td>
+                </tr>
+            </table>
+        }
+        @if (ViewBag.Message != null)
+        {
+            <h4>@ViewBag.Message</h4>
+        }
+    </form>
+</body>
+</html>

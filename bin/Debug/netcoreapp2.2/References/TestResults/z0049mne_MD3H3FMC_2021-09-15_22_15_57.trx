@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="47bae82b-126b-442d-ade9-667fec816fb4" name="z0049mne@MD3H3FMC 2021-09-15 22:15:57" runUser="AD001\z0049mne" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2021-09-15T22:15:57.6372756+05:30" queuing="2021-09-15T22:15:57.6372756+05:30" start="2021-09-15T22:15:12.8595207+05:30" finish="2021-09-15T22:15:58.7204167+05:30" />
+  <TestSettings name="default" id="790beb53-d9f3-473a-b234-5da3a2d2c629">
+    <Deployment runDeploymentRoot="z0049mne_MD3H3FMC_2021-09-15_22_15_57" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="03975ec7-e243-42d3-8f60-21c23db3c6ad" testId="fb3f85a5-ce4f-d64e-0c87-72a2e1e97d24" testName="GetObjectDataTimeSpanDiff" computerName="MD3H3FMC" duration="00:00:38.6717615" startTime="2021-09-15T22:15:14.2050615+05:30" endTime="2021-09-15T22:15:56.5628327+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="03975ec7-e243-42d3-8f60-21c23db3c6ad" resultType="DataDrivenTest">
+      <Output>
+        <StdOut>Not able to open the test data worksheet due to : Invalid or no Environment data!</StdOut>
+      </Output>
+      <InnerResults>
+        <UnitTestResult executionId="e8a566a2-f02b-41d9-b17d-11ab5b485e97" parentExecutionId="03975ec7-e243-42d3-8f60-21c23db3c6ad" testId="fb3f85a5-ce4f-d64e-0c87-72a2e1e97d24" testName="GetObjectDataTimeSpanDiff (Data Row 0)" computerName="MD3H3FMC" duration="00:00:37.6755076" startTime="2021-09-15T22:15:14.2050615+05:30" endTime="2021-09-15T22:15:56.5628327+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e8a566a2-f02b-41d9-b17d-11ab5b485e97" dataRowInfo="1" resultType="DataDrivenDataRow">
+          <Output>
+            <StdOut>Time Span Difference data for date : 2021-06-18 for Sensor Tag: 24EDFD0000C2 for dataType: Signal Strength&#xD;
+Not able to open the test data worksheet due to : Invalid or no Environment data!&#xD;
+Date of Exception: 2021-06-18&#xD;
+Exception : BucketName is a required property and must be set before making this call.&#xD;
+Parameter name: ListObjectsRequest.BucketName&#xD;
+Issue while fetching data of Signal!&#xD;
+&#xD;
+Time Span Difference data for date : 2021-06-18 for Sensor Tag: 24EDFD0000C2 for dataType: Temperature&#xD;
+Not able to open the test data worksheet due to : Invalid or no Environment data!&#xD;
+Date of Exception: 2021-06-18&#xD;
+Exception : BucketName is a required property and must be set before making this call.&#xD;
+Parameter name: ListObjectsRequest.BucketName&#xD;
+Issue while fetching data of temperature!&#xD;
+&#xD;
+Time Span Difference data for date : 2021-06-18 for Sensor Tag: 24EDFD0000C2 for dataType: Vibration&#xD;
+Not able to open the test data worksheet due to : Invalid or no Environment data!&#xD;
+Date of Exception: 2021-06-18&#xD;
+Exception : BucketName is a required property and must be set before making this call.&#xD;
+Parameter name: ListObjectsRequest.BucketName&#xD;
+Issue while fetching data of Vibration!&#xD;
+&#xD;
+Time Span Difference data for date : 2021-06-18 for Sensor Tag: 24EDFD0000C2 for dataType: Vibration&#xD;
+Not able to open the test data worksheet due to : Invalid or no Environment data!&#xD;
+Date of Exception: 2021-06-18&#xD;
+Exception : BucketName is a required property and must be set before making this call.&#xD;
+Parameter name: ListObjectsRequest.BucketName&#xD;
+Issue while fetching data of Vibration!&#xD;
+&#xD;
+Time Span Difference data for date : 2021-06-18 for Sensor Tag: 24EDFD0000C2 for dataType: Vibration&#xD;
+Not able to open the test data worksheet due to : Invalid or no Environment data!&#xD;
+Date of Exception: 2021-06-18&#xD;
+Exception : BucketName is a required property and must be set before making this call.&#xD;
+Parameter name: ListObjectsRequest.BucketName&#xD;
+Issue while fetching data of Vibration!&#xD;
+&#xD;
+Time Span Difference data for date : 2021-06-19 for Sensor Tag: 24EDFD0000C2 for dataType: Signal Strength&#xD;
+Not able to open the test data worksheet due to : Invalid or no Environment data!&#xD;
+Date of Exception: 2021-06-19&#xD;
+Exception : BucketName is a required property and must be set before making this call.&#xD;
+Parameter name: ListObjectsRequest.BucketName&#xD;
+Issue while fetching data of Signal!&#xD;
+&#xD;
+Time Span Difference data for date : 2021-06-19 for Sensor Tag: 24EDFD0000C2 for dataType: Temperature&#xD;
+Not able to open the test data worksheet due to : Invalid or no Environment data!&#xD;
+Date of Exception: 2021-06-19&#xD;
+Exception : BucketName is a required property and must be set before making this call.&#xD;
+Parameter name: ListObjectsRequest.BucketName&#xD;
+Issue while fetching data of temperature!&#xD;
+&#xD;
+Time Span Difference data for date : 2021-06-19 for Sensor Tag: 24EDFD0000C2 for dataType: Vibration&#xD;
+Not able to open the test data worksheet due to : Invalid or no Environment data!&#xD;
+Date of Exception: 2021-06-19&#xD;
+Exception : BucketName is a required property and must be set before making this call.&#xD;
+Parameter name: ListObjectsRequest.BucketName&#xD;
+Issue while fetching data of Vibration!&#xD;
+&#xD;
+Time Span Difference data for date : 2021-06-19 for Sensor Tag: 24EDFD0000C2 for dataType: Vibration&#xD;
+Not able to open the test data worksheet due to : Invalid or no Environment data!&#xD;
+Date of Exception: 2021-06-19&#xD;
+Exception : BucketName is a required property and must be set before making this call.&#xD;
+Parameter name: ListObjectsRequest.BucketName&#xD;
+Issue while fetching data of Vibration!&#xD;
+&#xD;
+Time Span Difference data for date : 2021-06-19 for Sensor Tag: 24EDFD0000C2 for dataType: Vibration&#xD;
+Not able to open the test data worksheet due to : Invalid or no Environment data!&#xD;
+Date of Exception: 2021-06-19&#xD;
+Exception : BucketName is a required property and must be set before making this call.&#xD;
+Parameter name: ListObjectsRequest.BucketName&#xD;
+Issue while fetching data of Vibration!</StdOut>
+            <ErrorInfo>
+              <Message>Assert.IsTrue failed. Failed in getting data!</Message>
+              <StackTrace>   at SCM_TF.Database.Te_Database.GetObjectDataTimeSpanDiff()&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="GetObjectDataTimeSpanDiff" storage="c:\users\z0049mne\source\repos\ms_test\scm_tf\scm_tf\references\scm_tf.dll" id="fb3f85a5-ce4f-d64e-0c87-72a2e1e97d24">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Database" />
+        <TestCategoryItem TestCategory="Database01" />
+      </TestCategory>
+      <Execution id="03975ec7-e243-42d3-8f60-21c23db3c6ad" />
+      <TestMethod codeBase="C:\Users\z0049mne\Source\Repos\ms_test\SCM_TF\SCM_TF\References\SCM_TF.dll" adapterTypeName="executor://mstestadapter/v2" className="SCM_TF.Database.Te_Database" name="GetObjectDataTimeSpanDiff" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="fb3f85a5-ce4f-d64e-0c87-72a2e1e97d24" executionId="03975ec7-e243-42d3-8f60-21c23db3c6ad" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="2" executed="2" passed="0" failed="2" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

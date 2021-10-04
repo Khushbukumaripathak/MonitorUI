@@ -1,0 +1,12 @@
+@startuml
+ClassInitialize -> Ad_Database: GetObjectListAWS
+ClassInitialize -> Ad_Database: ReadRSSIData
+ClassInitialize -> Ad_Database: GetObjectListAWS
+ClassInitialize -> Ad_Database: ReadTemperatureData
+ClassInitialize -> Ad_Database: GetObjectListAWS
+ClassInitialize -> Ad_Database: ReadVibrationData
+ClassInitialize -> Ad_Database: GetObjectListAWS
+ClassInitialize -> Ad_Database: ReadVibrationData
+ClassInitialize -> Ad_Database: GetObjectListAWS
+ClassInitialize -> Ad_Database: ReadVibrationData
+@enduml
